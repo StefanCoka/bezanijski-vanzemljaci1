@@ -1,0 +1,42 @@
+body {
+	background-color: #008fb3;
+	color: white;
+	text-shadow: 2px 2px black;
+
+}
+
+img {
+	float: right;
+	border-radius: 8px;
+}
+
+img:hover {
+	transform: scaleX(-1);
+}
+
+.povecanje {
+	font-size: 160%;
+}
+
+ol {
+	padding-left: 2%;
+}
+
+button {
+	background-color: #555555;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 7px 20px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
